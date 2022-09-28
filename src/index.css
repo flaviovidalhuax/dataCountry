@@ -1,0 +1,38 @@
+img{
+    width: 100%;
+    max-width: 300px;
+}
+ul, li{
+    list-style: none;
+    
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    flex-wrap: wrap;
+    
+
+}
+.Card_Each-data{
+    background-color: rgba(211, 206, 206, 0.4);
+    border-radius: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Card_spam{
+    font-weight: 700;
+
+}
+body{
+    background-color: cadetblue;
+}
